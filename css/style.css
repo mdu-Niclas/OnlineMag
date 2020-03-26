@@ -1,0 +1,368 @@
+/**
+ * fil: css/style.css
+ **/
+
+/*baggrundsbillede*/
+
+#forside,#artikler,#kontakt, #artikel1, #artikel2, #artikel3 { 
+  background: url(../images/Artboard%20%E2%80%93%2010.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* standard indstillinger for body*/
+
+body{
+    color:#000305;
+    font-size: 87,5%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+/* velkomsttekst til forside */
+
+.tekstforside{
+    font-size:100px;
+    text-align: center;
+    color: #80A8A2;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #FFF;
+    border-color: #80A8A2;
+    border-width: 10px;
+
+}
+
+/* styling af knap på forside */
+
+button {
+    margin:auto;
+    display:block;
+    padding: 15px 25px;
+    width: 40%;
+    font-size: 22px;
+    background-color: #80A8A2;
+    color: #FFF;
+    margin-bottom: 27%;
+    border-radius: 5px;
+}
+
+
+/*styling af links*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:#80A8A2;
+    
+}
+
+a:hover, a:active{
+    background-color:#80A8A2;
+    color: #FFF;
+}
+
+
+/* bodystyling for at have 70% width*/
+
+.body{
+    margin:0 auto;
+    width:70%;
+    clear: both; 
+}
+
+
+/*styling af logo*/
+
+.mainHeader img {
+    width:30%;
+    height: auto;
+    margin:2% 0%;
+}
+
+/* styling af navbar */
+
+.mainHeader nav{
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin:0 auto;
+}
+
+.mainHeader nav ul li{
+    float:left;
+    display:inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color:#FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainHeader nav a:hover, mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: #80A8A2;
+    text-shadow: none;
+}
+
+/* styling af maincontent */
+
+.mainContent {
+    line-height: 25px; 
+    border-radius: 5px;
+}
+
+.content{
+    width: 70%;
+    float:left;
+}
+
+.topcontent {
+    background-color: white;
+    border-radius: 5px;
+    padding:3% 5%;
+    margin-top: 2%;
+    
+}
+
+
+.post-info{
+    font-style: italic;
+    color:#999;
+    font-size:90%;
+}
+
+.readmore1, .readmore2, .readmore3{
+    font-size:80%;
+    font-style: italic;
+}
+
+.underrubrik1{
+    font-style: oblique;
+}
+
+.underoverskrift1, .underoverskrift2{
+    color:#80A8A2;
+
+}
+
+
+
+
+.middlecontent {
+    background-color: white;
+    border-radius: 5px;
+    padding:3% 5%;
+    margin-top: 2%;
+}
+
+.bottomcontent {
+    background-color: white;
+    border-radius: 5px;
+    padding:3% 5%;
+    margin-top: 2%;
+}
+
+
+/* styling af billeder */
+
+.natur{
+    width: 30%;
+    position: absolute;
+    margin-top: 1.7%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #80A8A2;
+}
+
+.retro{
+    width:70%;
+}
+
+.lampe{
+    width:60%
+}
+
+.pang{
+    width:80%
+}
+
+.infographic{
+    width:143%;
+}
+
+.top-sidebar{
+    width:21%;
+    float:left;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 3%;
+    margin: 2% 0% 2% 3%;
+    text-align: center;
+    font-size: 80%;
+    color:#000;
+}
+
+.fb-icon{
+    float: left;
+    margin-left: 28px;
+    margin-bottom: 10px
+    
+}
+
+.middle-sidebar{
+    width:21%;
+    float:left;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 3%;
+    margin: 2% 0% 2% 3%;
+    text-align: center;
+    font-size: 80%;
+    color:#000;
+}
+
+.insta-icon{
+     float: left;
+    margin-left: 28px;
+    margin-bottom: 10px
+}
+
+.bottom-sidebar{
+    width:21%;
+    float:left;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 3%;
+    margin: 2% 0% 2% 3%
+}
+
+
+/* Contact form */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-color: #80A8A2;
+  font-size:18px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*styling af footer*/
+
+.mainFooter{
+    width:100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    background-color:#80A8A2;
+    margin:2% 0%;
+}
+
+.mainFooter p{
+    width:92%;
+    margin: 1% auto;
+    color: #FFF;
+}
+
+
+/*Webside responsiv til mobile size*/
+
+
+@media only screen and (max-width: 620px) {
+    .body{
+        width: 90%;
+        font-size:95%;
+    }
+    
+    .mainHeader img{
+        width:100%;
+    }
+    
+    .mainHeader nav{
+    height: 120px;
+    border-radius: 0px;
+    }
+
+    .mainHeader nav ul{
+    padding-left:0;
+    }
+
+    .mainHeader nav ul li{
+    width:100%;
+    text-align: center;
+    }
+
+    .mainHeader nav a:link, .mainHeader nav a:visited{
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+    }
+ 
+
+    .content{
+    width:100%;
+    float:left;
+    margin-top: 2%;
+    }
+
+    .top-sidebar, .middle-sidebar, .bottom-sidebar{
+    width:94%;
+    padding: 2% 3%;
+    margin: 2% 0% 2% 0%
+    }
+
+.tekstforside{
+    font-size:70px;
+    padding: 2%;
+    }
+
+.natur{
+    position: relative;
+    width: 94%;
+    
+    }    
+    
+    
+}
+
+    
