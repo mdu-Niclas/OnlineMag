@@ -179,11 +179,10 @@ a:hover, a:active{
 /* styling af billeder */
 
 .natur{
-    width: 30%;
+    width: 29.9%;
     position: absolute;
-    margin-top: 1.7%;
-    margin-left: 1%;
-    margin-bottom: 2%;
+    margin-top: 0.8%;
+    margin-left: 0.6%;
     border-style: solid;
     border-width: 10px;
     border-color: #80A8A2;
