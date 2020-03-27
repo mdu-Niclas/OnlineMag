@@ -347,7 +347,7 @@ input[type=submit]:hover {
     }
 
 .tekstforside{
-    font-size:70px;
+    font-size:50px;
     padding: 2%;
     }
 
@@ -356,7 +356,9 @@ input[type=submit]:hover {
     width: 94%;
     
     }    
-    
+    .infographic{
+     width:100%;   
+    }   
     
 }
 
