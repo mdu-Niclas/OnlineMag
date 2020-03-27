@@ -6,9 +6,6 @@
 
 #forside,#artikler,#kontakt, #artikel1, #artikel2, #artikel3 { 
   background: url(../images/Artboard%20%E2%80%93%2010.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -16,7 +13,7 @@
 
 body{
     color:#000305;
-    font-size: 87,5%;
+    font-size: 87.5%;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     text-align: left;
@@ -44,12 +41,14 @@ button {
     display:block;
     padding: 15px 25px;
     width: 40%;
+    color: #FFF;
     font-size: 22px;
     background-color: #80A8A2;
-    color: #FFF;
     margin-bottom: 27%;
     border-radius: 5px;
+    border-color: #80A8A2;
 }
+
 
 
 /*styling af links*/
@@ -63,10 +62,7 @@ a:link, a:visited{
     
 }
 
-a:hover, a:active{
-    background-color:#80A8A2;
-    color: #FFF;
-}
+
 
 
 /* bodystyling for at have 70% width*/
@@ -179,7 +175,7 @@ a:hover, a:active{
 /* styling af billeder */
 
 .natur{
-    width: 29.9%;
+    width: 26.5%;
     position: absolute;
     margin-top: 0.8%;
     margin-left: 0.6%;
